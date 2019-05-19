@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1054" viewBox="0 0 1920 1054">
+  <defs>
+    <radialGradient id="radial-gradient" cx="1859.999" cy="1060" r="1699.2" gradientTransform="translate(450 239.062) scale(0.531 0.531)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f6f7f7"/>
+      <stop offset="0.271" stop-color="#f6f7f7"/>
+      <stop offset="1" stop-color="#dbe7ea"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_101" data-name="Group 101" transform="translate(0.001 0)">
+    <path id="Rectangle_6" data-name="Rectangle 6" d="M900,550H2820v930s-479.686,90-959.529,90C1380.313,1570,900,1480,900,1480Z" transform="translate(-900 -550)" fill="url(#radial-gradient)"/>
+    <g id="Blocks" transform="translate(1259.664 71.832)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="93.528" height="114.881" transform="translate(442.548 263.168)" fill="#fff"/>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="50.161" height="50.11" transform="translate(546.175 376.533)" fill="#fff" opacity="0.5"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="35.601" height="35.565" transform="translate(546.175 323.774)" fill="#fff" opacity="0.5"/>
+      <rect id="Rectangle_4" data-name="Rectangle 4" width="84.777" height="35.565" transform="translate(488.341 454.602)" fill="#fff" opacity="0.5"/>
+      <rect id="Rectangle_5" data-name="Rectangle 5" width="50.161" height="85.104" transform="translate(382.336 274.235)" fill="#fafbfb"/>
+      <rect id="Rectangle_6-2" data-name="Rectangle 6" width="133.109" height="50.11" transform="translate(407.417 390.298)" fill="#f6f8f9"/>
+    </g>
+    <g id="Clock" transform="translate(796.602 -3.771)">
+      <g id="Group_5" data-name="Group 5">
+        <g id="Group_4" data-name="Group 4">
+          <circle id="Ellipse_1" data-name="Ellipse 1" cx="81" cy="81" r="81" transform="translate(683.398 119.771)" fill="#d9e0e3"/>
+          <circle id="Ellipse_2" data-name="Ellipse 2" cx="72.215" cy="72.215" r="72.215" transform="translate(692.183 128.555)" fill="#fafbfb"/>
+          <circle id="Ellipse_3" data-name="Ellipse 3" cx="3.149" cy="3.149" r="3.149" transform="translate(761.25 197.622)" fill="#cfd8dc"/>
+          <g id="Group_3" data-name="Group 3">
+            <g id="Group_1" data-name="Group 1">
+              <rect id="Rectangle_7" data-name="Rectangle 7" width="2.906" height="13.21" transform="translate(763.028 131.192)" fill="#cfd8dc"/>
+              <rect id="Rectangle_8" data-name="Rectangle 8" width="2.906" height="13.21" transform="translate(763.028 257.216)" fill="#cfd8dc"/>
+            </g>
+            <g id="Group_2" data-name="Group 2">
+              <rect id="Rectangle_9" data-name="Rectangle 9" width="2.906" height="13.21" transform="translate(834.098 199.356) rotate(90)" fill="#cfd8dc"/>
+              <rect id="Rectangle_10" data-name="Rectangle 10" width="2.906" height="13.21" transform="translate(708.074 199.356) rotate(90)" fill="#cfd8dc"/>
+            </g>
+          </g>
+        </g>
+        <path id="Path_1" data-name="Path 1" d="M762.882,198.679l1.626-45.8,1.626,45.8Z" fill="#cfd8dc"/>
+        <path id="Path_2" data-name="Path 2" d="M762.627,201.588,731.421,168.03l33.507,31.261Z" fill="#cfd8dc"/>
+      </g>
+    </g>
+    <g id="Blocks-2" data-name="Blocks" transform="translate(-829.007 -188.312)" opacity="0.502">
+      <g id="Group_98" data-name="Group 98">
+        <rect id="Rectangle_32" data-name="Rectangle 32" width="78.805" height="35.301" transform="matrix(-1, 0, 0, -1, 1005.78, 512.312)" fill="#fff"/>
+        <g id="Group_97" data-name="Group 97">
+          <rect id="Rectangle_33" data-name="Rectangle 33" width="78.805" height="35.3" transform="matrix(-1, 0, 0, -1, 1052.007, 465.612)" fill="#fff"/>
+          <rect id="Rectangle_34" data-name="Rectangle 34" width="78.805" height="35.3" transform="matrix(-1, 0, 0, -1, 959.812, 465.612)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="Blocks-3" data-name="Blocks" transform="matrix(-1, 0, 0, -1, 1341.007, 897.312)" opacity="0.502">
+      <g id="Group_100" data-name="Group 100">
+        <rect id="Rectangle_35" data-name="Rectangle 35" width="78.805" height="35.301" transform="matrix(-1, 0, 0, -1, 1005.78, 512.312)" fill="#fff"/>
+        <g id="Group_99" data-name="Group 99">
+          <rect id="Rectangle_36" data-name="Rectangle 36" width="78.805" height="35.3" transform="matrix(-1, 0, 0, -1, 1052.007, 465.612)" fill="#fff"/>
+          <rect id="Rectangle_37" data-name="Rectangle 37" width="78.805" height="35.3" transform="matrix(-1, 0, 0, -1, 959.812, 465.612)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

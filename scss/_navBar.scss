@@ -1,0 +1,42 @@
+.navbar {
+  background: transparent !important;
+}
+
+.nav-item {
+  margin-top: 18px !important;
+  &:not(:last-child) {
+    padding-right: 25px !important;
+  }
+  .nav-link {
+    color: #00de91 !important;
+    padding: 8px 20px !important;
+    font-family: inherit !important;
+    display: inline-block !important;
+
+    &:hover {
+      background-color: rgba(0, 222, 145, 0.1) !important;
+    }
+  }
+  .active {
+    background-color: rgba(0, 222, 145, 0.1) !important;
+  }
+}
+
+.newNavbar {
+  .navbar-toggler {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+  li {
+    a {
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: inherit;
+    }
+
+    .nav-link {
+      color: #696a98 !important;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@import "./mixin";
+
+#form_content {
+  .col-md-6 {
+    text-align: right !important;
+  }
+
+  #sign_in_up_form {
+    @include inputStyle;
+    @include submitBtn;
+  }
+}

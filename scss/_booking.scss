@@ -1,0 +1,70 @@
+.booking_content {
+  width: 100% !important;
+  text-align: center;
+  padding: 20px;
+  color: #686868;
+
+  h2 {
+    font-family: inherit;
+    font-size: 22px;
+    font-weight: 600;
+  }
+
+  .card {
+    margin-top: 20px;
+    background: transparent !important;
+    border: none !important;
+    margin-left: 50px;
+  }
+
+  .checkBox_container {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+    padding-left: 30px;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  .table {
+    thead {
+      border-bottom: 1px solid #cccccc;
+    }
+    tr {
+      border-bottom: 1px solid #cccccc;
+      transition: background 0.2s ease-in-out;
+      &:hover {
+        // background: #fff !important;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        border-left: 5px solid #ff7292;
+      }
+    }
+
+    td {
+      padding: 15px 10px;
+      color: #757575;
+      .p-icon {
+        i {
+          font-size: 20px;
+        }
+      }
+
+      i {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.new_booking {
+  a {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    span {
+      padding-right: 5px;
+    }
+  }
+}
