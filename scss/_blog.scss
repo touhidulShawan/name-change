@@ -53,6 +53,7 @@
   text-align: left;
   font-style: italic;
   width: 100%;
+
   a {
     text-decoration: underline;
     color: #707070 !important;
@@ -60,6 +61,8 @@
 
   .blog_post_details {
     margin-top: 20px;
+    max-height: 1200px;
+    overflow-y: scroll;
 
     ol {
       margin-left: -20px;
