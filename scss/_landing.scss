@@ -18,6 +18,11 @@
       border: none !important;
       .card-body {
         padding: 20px 40px;
+        p {
+          width: 55%;
+          margin: auto;
+          color: #707070;
+        }
       }
     }
     text-align: center;
@@ -26,13 +31,39 @@
 
     h1 {
       text-transform: uppercase;
-      font-size: 38px;
+      font-size: 35px;
+      font-weight: 600;
+      font-family: inherit;
+      // word-spacing: 5px;
+      line-height: 70px;
     }
   }
 }
 
+.user_greeting_text {
+  // display: inline-block !important;
+  display: flex !important;
+  justify-content: space-around !important;
+
+  img {
+    margin-left: 120px !important;
+    width: 100px;
+  }
+}
+
+.user_message {
+  width: 60% !important;
+  color: #fff !important;
+  font-size: 14px;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
 .content_section {
-  // margin-top: 34px;
+  margin-top: 255px !important;
 }
 .content {
   background: #ccc;
@@ -40,12 +71,13 @@
 }
 
 .content_container {
-  min-height: 750px !important;
+  min-height: 850px !important;
   background-image: url(../img/booking_bg.svg);
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
   margin-top: -25px !important;
+  padding: 90px auto !important;
 }
 
 .content_heading {
@@ -75,22 +107,6 @@
   }
 }
 
-.user_greeting_text {
-  display: inline-block !important;
-  display: flex !important;
-  justify-content: space-between !important;
-}
-
-.user_message {
-  width: 75% !important;
-  color: #fff !important;
-
-  a {
-    text-decoration: none;
-    color: #fff;
-  }
-}
-
 .form_content {
   margin-top: 120px;
 }
@@ -104,6 +120,7 @@
   @include file_upload;
   @include submitBtn;
   @include select;
+  margin-top: -40px !important;
 }
 
 .file_upload {
