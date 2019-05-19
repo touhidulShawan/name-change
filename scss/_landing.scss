@@ -45,6 +45,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
+  margin-top: -5px !important;
 }
 
 .content_heading {
@@ -105,12 +106,11 @@
 
 .file_upload {
   .custom_upload {
-    margin-top: -20px;
     padding: 12px 13px !important;
     width: 100% !important;
     height: 50px !important;
     background: #fff;
-    color: #333;
+    color: #495057;
     font-weight: 600 !important;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1) !important;
     text-align: center;
@@ -118,8 +118,9 @@
     cursor: pointer;
     span {
       text-transform: uppercase;
-      font-size: 16px;
-      color: #72c4fe;
+      font-size: 14px;
+      font-family: inherit;
+      color: #495057;
     }
 
     i {
@@ -162,6 +163,7 @@
     text-align: center;
     width: 100%;
     height: 100%;
+    overflow-y: scroll;
     span {
       i {
         font-size: 35px;
@@ -414,7 +416,11 @@
 
 .whatsapp_link {
   text-decoration: none !important;
-  color: #000000 !important;
+
+  img {
+    width: 80px !important;
+    height: 80px !important;
+  }
 }
 
 @media (max-width: 768px) {

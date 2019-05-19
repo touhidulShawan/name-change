@@ -89,16 +89,51 @@
                     </div>
                   </div>
                 </div>
-                <div class="row py-3 my-3 px-5 mb-4">
-                  <div class="col-md-8 text-center user_greeting_text">
-                      <img src="./img/Happy Holidays.png" alt="userImage" class="img-fluid">
-                     <div class="user_message">
-                        <div class="user_text_message">
-                            I am very impressed by how fast my change of name was published. I literally got my new name published in one day; and the service was very warm and friendly. Chuks, Lagos
+
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="row py-3 my-3 px-5 mb-4">
+                        <div class="col-md-8 text-center user_greeting_text" id="testimonial">
+                            <img src="./img/Happy Holidays.png" alt="userImage" class="img-fluid">
+                           <div class="user_message">
+                              <div class="user_text_message">
+                                  I am very impressed by how fast my change of name was published. I literally got my new name published in one day; and the service was very warm and friendly. Chuks, Lagos
+                              </div>
+                              <a href="#"><span class="left_arrow"><i class="fas fa-angle-double-left"></i></span></a>
+                              <a href="#"><span class="right_arrow"><i class="fas fa-angle-double-right"></i></span></a>
+                           </div>
                         </div>
-                        <a href="#"><span class="left_arrow"><i class="fas fa-angle-double-left"></i></span></a>
-                        <a href="#"><span class="right_arrow"><i class="fas fa-angle-double-right"></i></span></a>
-                     </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row py-3 my-3 px-5 mb-4">
+                        <div class="col-md-8 text-center user_greeting_text" id="testimonial">
+                            <img src="./img/Happy Holidays.png" alt="userImage" class="img-fluid">
+                           <div class="user_message">
+                              <div class="user_text_message">
+                                  I am very impressed by how fast my change of name was published. I literally got my new name published in one day; and the service was very warm and friendly. Chuks, Lagos
+                              </div>
+                              <a href="#"><span class="left_arrow"><i class="fas fa-angle-double-left"></i></span></a>
+                              <a href="#"><span class="right_arrow"><i class="fas fa-angle-double-right"></i></span></a>
+                           </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="row py-3 my-3 px-5 mb-4">
+                        <div class="col-md-8 text-center user_greeting_text" id="testimonial">
+                            <img src="./img/Happy Holidays.png" alt="userImage" class="img-fluid">
+                           <div class="user_message">
+                              <div class="user_text_message">
+                                  I am very impressed by how fast my change of name was published. I literally got my new name published in one day; and the service was very warm and friendly. Chuks, Lagos
+                              </div>
+                              <a href="#"><span class="left_arrow"><i class="fas fa-angle-double-left"></i></span></a>
+                              <a href="#"><span class="right_arrow"><i class="fas fa-angle-double-right"></i></span></a>
+                           </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -143,6 +178,11 @@
                                 required
                               />
                             </div>
+                            
+                          </div>
+                        </div>
+                        <div class="row justify-content-center">
+                          <div class="col-md-4">
                             <div class="form-group">
                               <input
                                 type="text"
@@ -152,6 +192,21 @@
                                 aria-describedby="helpId"
                                 placeholder="Reason for Change"
                                 required
+                              />
+                            </div>
+                          </div>
+                          <div class="col-md-2 file_upload">
+                            <div class="form-group">
+                              <label for="user_attachment" class="custom_upload">
+                                <span>Attach proof</span>
+                              </label>
+                              <input
+                                type="file"
+                                class="form-control-file"
+                                name="user_attachment"
+                                id="user_attachment"
+                                placeholder="Add attachment"
+                                aria-describedby="fileHelpId"
                               />
                             </div>
                           </div>
@@ -212,31 +267,44 @@
                           </div>
                         </div>
                         <div class="row justify-content-center">
-                          <div class="col-md-6 file_upload">
+                          <div class="col-md-3">
                             <div class="form-group">
-                              <label for="user_attachment" class="custom_upload">
-                                <i class="fas fa-file-upload"></i>
-                                <span>Upload a file</span>
-                              </label>
                               <input
-                                type="file"
-                                class="form-control-file"
-                                name="user_attachment"
-                                id="user_attachment"
-                                placeholder="Add attachment"
-                                aria-describedby="fileHelpId"
+                                type="text"
+                                class="form-control"
+                                name="discount"
+                                id="discount"
+                                aria-describedby="helpId"
+                                placeholder="Enter Discount Code"
+                                required
                               />
                             </div>
                           </div>
+                          <div class="col-md-2">
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="total"
+                                id="total"
+                                aria-describedby="helpId"
+                                placeholder="Total"
+                                required
+                              />
+                          </div>
+                          <div class="col-md-1">
+                            <button class="btn btn-success ml-auto" type="submit">
+                              <span>Proceed</span>
+                            </button>
+                          </div>
                         </div>
-                        <div class="row justify-content-center submit_btn">
+                        <!-- <div class="row justify-content-center submit_btn">
                           <div class="col-md-4">&nbsp;</div>
                           <div class="col-md-2">
                             <button class="btn btn-success ml-auto" type="submit">
                               <span>Proceed</span>
                             </button>
                           </div>
-                        </div>
+                        </div> -->
                       </form>
                       <div class="logo_image">
                         <div class="container">
@@ -437,7 +505,7 @@
                     <p>Olonade Street. Yaba, Lagos</p>
                   </div>
                   <div class="chat_on_whatsapp">
-                    <a href="#" class="whatsapp_link">Chat with us on whatsapp</a>
+                    <a href="#" class="whatsapp_link"><img src="./img/whatsapp.png" alt="whatsapp"></a>
                   </div>
                 </div>
                 <div class="social_share_wrapper">
