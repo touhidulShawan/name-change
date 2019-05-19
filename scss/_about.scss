@@ -55,9 +55,9 @@
 }
 
 .footer_content_wrapper {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
 
   .social_share {
     display: flex;
@@ -87,6 +87,12 @@
   .copyright_content {
     color: #00d3ff !important;
     padding-top: 25px;
+  }
+}
+
+@media (max-width: 461px) {
+  .copyright_content {
+    text-align: center !important;
   }
 }
 
